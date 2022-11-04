@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */; };
+		2FC89CA12915AD2B00AE7A8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CA02915AD2B00AE7A8A /* ContentView.swift */; };
+		2FC89CA32915AD2C00AE7A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */; };
+		2FC89CA72915AD2C00AE7A8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CA62915AD2C00AE7A8A /* Preview Assets.xcassets */; };
+		2FC89CB12915AD2C00AE7A8A /* That_GirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CB02915AD2C00AE7A8A /* That_GirlTests.swift */; };
+		2FC89CBB2915AD2C00AE7A8A /* That_GirlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CBA2915AD2C00AE7A8A /* That_GirlUITests.swift */; };
+		2FC89CBD2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CBC2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC89CAD2915AD2C00AE7A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC89C932915AD2B00AE7A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC89C9A2915AD2B00AE7A8A;
+			remoteInfo = "That Girl";
+		};
+		2FC89CB72915AD2C00AE7A8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC89C932915AD2B00AE7A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC89C9A2915AD2B00AE7A8A;
+			remoteInfo = "That Girl";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC89C9B2915AD2B00AE7A8A /* That Girl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "That Girl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlApp.swift; sourceTree = "<group>"; };
+		2FC89CA02915AD2B00AE7A8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC89CA42915AD2C00AE7A8A /* That_Girl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = That_Girl.entitlements; sourceTree = "<group>"; };
+		2FC89CA62915AD2C00AE7A8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FC89CAC2915AD2C00AE7A8A /* That GirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "That GirlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC89CB02915AD2C00AE7A8A /* That_GirlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlTests.swift; sourceTree = "<group>"; };
+		2FC89CB62915AD2C00AE7A8A /* That GirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "That GirlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC89CBA2915AD2C00AE7A8A /* That_GirlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlUITests.swift; sourceTree = "<group>"; };
+		2FC89CBC2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC89C982915AD2B00AE7A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC89CA92915AD2C00AE7A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC89CB32915AD2C00AE7A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC89C922915AD2B00AE7A8A = {
+			isa = PBXGroup;
+			children = (
+				2FC89C9D2915AD2B00AE7A8A /* That Girl */,
+				2FC89CAF2915AD2C00AE7A8A /* That GirlTests */,
+				2FC89CB92915AD2C00AE7A8A /* That GirlUITests */,
+				2FC89C9C2915AD2B00AE7A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC89C9C2915AD2B00AE7A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC89C9B2915AD2B00AE7A8A /* That Girl.app */,
+				2FC89CAC2915AD2C00AE7A8A /* That GirlTests.xctest */,
+				2FC89CB62915AD2C00AE7A8A /* That GirlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC89C9D2915AD2B00AE7A8A /* That Girl */ = {
+			isa = PBXGroup;
+			children = (
+				2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */,
+				2FC89CA02915AD2B00AE7A8A /* ContentView.swift */,
+				2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */,
+				2FC89CA42915AD2C00AE7A8A /* That_Girl.entitlements */,
+				2FC89CA52915AD2C00AE7A8A /* Preview Content */,
+			);
+			path = "That Girl";
+			sourceTree = "<group>";
+		};
+		2FC89CA52915AD2C00AE7A8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FC89CA62915AD2C00AE7A8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FC89CAF2915AD2C00AE7A8A /* That GirlTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC89CB02915AD2C00AE7A8A /* That_GirlTests.swift */,
+			);
+			path = "That GirlTests";
+			sourceTree = "<group>";
+		};
+		2FC89CB92915AD2C00AE7A8A /* That GirlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC89CBA2915AD2C00AE7A8A /* That_GirlUITests.swift */,
+				2FC89CBC2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift */,
+			);
+			path = "That GirlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC89C9A2915AD2B00AE7A8A /* That Girl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC89CC02915AD2C00AE7A8A /* Build configuration list for PBXNativeTarget "That Girl" */;
+			buildPhases = (
+				2FC89C972915AD2B00AE7A8A /* Sources */,
+				2FC89C982915AD2B00AE7A8A /* Frameworks */,
+				2FC89C992915AD2B00AE7A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "That Girl";
+			productName = "That Girl";
+			productReference = 2FC89C9B2915AD2B00AE7A8A /* That Girl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC89CAB2915AD2C00AE7A8A /* That GirlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC89CC32915AD2C00AE7A8A /* Build configuration list for PBXNativeTarget "That GirlTests" */;
+			buildPhases = (
+				2FC89CA82915AD2C00AE7A8A /* Sources */,
+				2FC89CA92915AD2C00AE7A8A /* Frameworks */,
+				2FC89CAA2915AD2C00AE7A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC89CAE2915AD2C00AE7A8A /* PBXTargetDependency */,
+			);
+			name = "That GirlTests";
+			productName = "That GirlTests";
+			productReference = 2FC89CAC2915AD2C00AE7A8A /* That GirlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FC89CB52915AD2C00AE7A8A /* That GirlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC89CC62915AD2C00AE7A8A /* Build configuration list for PBXNativeTarget "That GirlUITests" */;
+			buildPhases = (
+				2FC89CB22915AD2C00AE7A8A /* Sources */,
+				2FC89CB32915AD2C00AE7A8A /* Frameworks */,
+				2FC89CB42915AD2C00AE7A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC89CB82915AD2C00AE7A8A /* PBXTargetDependency */,
+			);
+			name = "That GirlUITests";
+			productName = "That GirlUITests";
+			productReference = 2FC89CB62915AD2C00AE7A8A /* That GirlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC89C932915AD2B00AE7A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2FC89C9A2915AD2B00AE7A8A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2FC89CAB2915AD2C00AE7A8A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2FC89C9A2915AD2B00AE7A8A;
+					};
+					2FC89CB52915AD2C00AE7A8A = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2FC89C9A2915AD2B00AE7A8A;
+					};
+				};
+			};
+			buildConfigurationList = 2FC89C962915AD2B00AE7A8A /* Build configuration list for PBXProject "That Girl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC89C922915AD2B00AE7A8A;
+			productRefGroup = 2FC89C9C2915AD2B00AE7A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC89C9A2915AD2B00AE7A8A /* That Girl */,
+				2FC89CAB2915AD2C00AE7A8A /* That GirlTests */,
+				2FC89CB52915AD2C00AE7A8A /* That GirlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC89C992915AD2B00AE7A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC89CA72915AD2C00AE7A8A /* Preview Assets.xcassets in Resources */,
+				2FC89CA32915AD2C00AE7A8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC89CAA2915AD2C00AE7A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC89CB42915AD2C00AE7A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC89C972915AD2B00AE7A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC89CA12915AD2B00AE7A8A /* ContentView.swift in Sources */,
+				2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC89CA82915AD2C00AE7A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC89CB12915AD2C00AE7A8A /* That_GirlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC89CB22915AD2C00AE7A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC89CBB2915AD2C00AE7A8A /* That_GirlUITests.swift in Sources */,
+				2FC89CBD2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC89CAE2915AD2C00AE7A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC89C9A2915AD2B00AE7A8A /* That Girl */;
+			targetProxy = 2FC89CAD2915AD2C00AE7A8A /* PBXContainerItemProxy */;
+		};
+		2FC89CB82915AD2C00AE7A8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC89C9A2915AD2B00AE7A8A /* That Girl */;
+			targetProxy = 2FC89CB72915AD2C00AE7A8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FC89CBE2915AD2C00AE7A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FC89CBF2915AD2C00AE7A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2FC89CC12915AD2C00AE7A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "That Girl/That_Girl.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"That Girl/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SUBCULTURED.That-Girl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC89CC22915AD2C00AE7A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "That Girl/That_Girl.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"That Girl/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SUBCULTURED.That-Girl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FC89CC42915AD2C00AE7A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SUBCULTURED.That-GirlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/That Girl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/That Girl";
+			};
+			name = Debug;
+		};
+		2FC89CC52915AD2C00AE7A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SUBCULTURED.That-GirlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/That Girl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/That Girl";
+			};
+			name = Release;
+		};
+		2FC89CC72915AD2C00AE7A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SUBCULTURED.That-GirlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "That Girl";
+			};
+			name = Debug;
+		};
+		2FC89CC82915AD2C00AE7A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SUBCULTURED.That-GirlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "That Girl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC89C962915AD2B00AE7A8A /* Build configuration list for PBXProject "That Girl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC89CBE2915AD2C00AE7A8A /* Debug */,
+				2FC89CBF2915AD2C00AE7A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC89CC02915AD2C00AE7A8A /* Build configuration list for PBXNativeTarget "That Girl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC89CC12915AD2C00AE7A8A /* Debug */,
+				2FC89CC22915AD2C00AE7A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC89CC32915AD2C00AE7A8A /* Build configuration list for PBXNativeTarget "That GirlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC89CC42915AD2C00AE7A8A /* Debug */,
+				2FC89CC52915AD2C00AE7A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC89CC62915AD2C00AE7A8A /* Build configuration list for PBXNativeTarget "That GirlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC89CC72915AD2C00AE7A8A /* Debug */,
+				2FC89CC82915AD2C00AE7A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC89C932915AD2B00AE7A8A /* Project object */;
+}
