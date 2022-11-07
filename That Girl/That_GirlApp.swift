@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
+
 struct That_GirlApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreenView()
         }
     }
 }

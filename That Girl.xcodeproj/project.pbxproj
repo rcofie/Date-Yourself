@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */; };
-		2FC89CA12915AD2B00AE7A8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CA02915AD2B00AE7A8A /* ContentView.swift */; };
+		2FC89CA12915AD2B00AE7A8A /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */; };
 		2FC89CA32915AD2C00AE7A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */; };
 		2FC89CA72915AD2C00AE7A8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CA62915AD2C00AE7A8A /* Preview Assets.xcassets */; };
 		2FC89CB12915AD2C00AE7A8A /* That_GirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CB02915AD2C00AE7A8A /* That_GirlTests.swift */; };
 		2FC89CBB2915AD2C00AE7A8A /* That_GirlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CBA2915AD2C00AE7A8A /* That_GirlUITests.swift */; };
 		2FC89CBD2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CBC2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift */; };
+		2FC89CCC29181C0200AE7A8A /* DashboardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CCB29181C0200AE7A8A /* DashboardScreenView.swift */; };
+		2FC89CDB29198A1B00AE7A8A /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CCD29198A1A00AE7A8A /* Karla-Italic.ttf */; };
+		2FC89CDC29198A1B00AE7A8A /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CCE29198A1A00AE7A8A /* Karla-Bold.ttf */; };
+		2FC89CDD29198A1B00AE7A8A /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CCF29198A1A00AE7A8A /* Karla-Regular.ttf */; };
+		2FC89CDE29198A1B00AE7A8A /* Karla-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD029198A1A00AE7A8A /* Karla-Light.ttf */; };
+		2FC89CDF29198A1B00AE7A8A /* Karla-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD129198A1A00AE7A8A /* Karla-LightItalic.ttf */; };
+		2FC89CE029198A1B00AE7A8A /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD229198A1A00AE7A8A /* Karla-BoldItalic.ttf */; };
+		2FC89CE129198A1B00AE7A8A /* Karla-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD329198A1A00AE7A8A /* Karla-ExtraLight.ttf */; };
+		2FC89CE229198A1B00AE7A8A /* Karla-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD429198A1A00AE7A8A /* Karla-ExtraBoldItalic.ttf */; };
+		2FC89CE329198A1B00AE7A8A /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD529198A1A00AE7A8A /* Karla-Medium.ttf */; };
+		2FC89CE429198A1B00AE7A8A /* Karla-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD629198A1A00AE7A8A /* Karla-SemiBoldItalic.ttf */; };
+		2FC89CE529198A1B00AE7A8A /* Karla-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD729198A1B00AE7A8A /* Karla-MediumItalic.ttf */; };
+		2FC89CE629198A1B00AE7A8A /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD829198A1B00AE7A8A /* Karla-ExtraBold.ttf */; };
+		2FC89CE729198A1B00AE7A8A /* Karla-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CD929198A1B00AE7A8A /* Karla-SemiBold.ttf */; };
+		2FC89CE829198A1B00AE7A8A /* Karla-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CDA29198A1B00AE7A8A /* Karla-ExtraLightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,7 @@
 /* Begin PBXFileReference section */
 		2FC89C9B2915AD2B00AE7A8A /* That Girl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "That Girl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlApp.swift; sourceTree = "<group>"; };
-		2FC89CA02915AD2B00AE7A8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FC89CA42915AD2C00AE7A8A /* That_Girl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = That_Girl.entitlements; sourceTree = "<group>"; };
 		2FC89CA62915AD2C00AE7A8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +60,22 @@
 		2FC89CB62915AD2C00AE7A8A /* That GirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "That GirlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC89CBA2915AD2C00AE7A8A /* That_GirlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlUITests.swift; sourceTree = "<group>"; };
 		2FC89CBC2915AD2C00AE7A8A /* That_GirlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FC89CCB29181C0200AE7A8A /* DashboardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardScreenView.swift; sourceTree = "<group>"; };
+		2FC89CCD29198A1A00AE7A8A /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-Italic.ttf"; path = "../../../Downloads/Karla/static/Karla-Italic.ttf"; sourceTree = "<group>"; };
+		2FC89CCE29198A1A00AE7A8A /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-Bold.ttf"; path = "../../../Downloads/Karla/static/Karla-Bold.ttf"; sourceTree = "<group>"; };
+		2FC89CCF29198A1A00AE7A8A /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-Regular.ttf"; path = "../../../Downloads/Karla/static/Karla-Regular.ttf"; sourceTree = "<group>"; };
+		2FC89CD029198A1A00AE7A8A /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-Light.ttf"; path = "../../../Downloads/Karla/static/Karla-Light.ttf"; sourceTree = "<group>"; };
+		2FC89CD129198A1A00AE7A8A /* Karla-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-LightItalic.ttf"; path = "../../../Downloads/Karla/static/Karla-LightItalic.ttf"; sourceTree = "<group>"; };
+		2FC89CD229198A1A00AE7A8A /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-BoldItalic.ttf"; path = "../../../Downloads/Karla/static/Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2FC89CD329198A1A00AE7A8A /* Karla-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-ExtraLight.ttf"; path = "../../../Downloads/Karla/static/Karla-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2FC89CD429198A1A00AE7A8A /* Karla-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-ExtraBoldItalic.ttf"; path = "../../../Downloads/Karla/static/Karla-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2FC89CD529198A1A00AE7A8A /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-Medium.ttf"; path = "../../../Downloads/Karla/static/Karla-Medium.ttf"; sourceTree = "<group>"; };
+		2FC89CD629198A1A00AE7A8A /* Karla-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-SemiBoldItalic.ttf"; path = "../../../Downloads/Karla/static/Karla-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2FC89CD729198A1B00AE7A8A /* Karla-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-MediumItalic.ttf"; path = "../../../Downloads/Karla/static/Karla-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2FC89CD829198A1B00AE7A8A /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-ExtraBold.ttf"; path = "../../../Downloads/Karla/static/Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2FC89CD929198A1B00AE7A8A /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-SemiBold.ttf"; path = "../../../Downloads/Karla/static/Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		2FC89CDA29198A1B00AE7A8A /* Karla-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Karla-ExtraLightItalic.ttf"; path = "../../../Downloads/Karla/static/Karla-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2FC89CE929198B9E00AE7A8A /* That-Girl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "That-Girl-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +126,24 @@
 		2FC89C9D2915AD2B00AE7A8A /* That Girl */ = {
 			isa = PBXGroup;
 			children = (
+				2FC89CE929198B9E00AE7A8A /* That-Girl-Info.plist */,
 				2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */,
-				2FC89CA02915AD2B00AE7A8A /* ContentView.swift */,
+				2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */,
+				2FC89CCB29181C0200AE7A8A /* DashboardScreenView.swift */,
+				2FC89CCE29198A1A00AE7A8A /* Karla-Bold.ttf */,
+				2FC89CD229198A1A00AE7A8A /* Karla-BoldItalic.ttf */,
+				2FC89CD829198A1B00AE7A8A /* Karla-ExtraBold.ttf */,
+				2FC89CD429198A1A00AE7A8A /* Karla-ExtraBoldItalic.ttf */,
+				2FC89CD329198A1A00AE7A8A /* Karla-ExtraLight.ttf */,
+				2FC89CDA29198A1B00AE7A8A /* Karla-ExtraLightItalic.ttf */,
+				2FC89CCD29198A1A00AE7A8A /* Karla-Italic.ttf */,
+				2FC89CD029198A1A00AE7A8A /* Karla-Light.ttf */,
+				2FC89CD129198A1A00AE7A8A /* Karla-LightItalic.ttf */,
+				2FC89CD529198A1A00AE7A8A /* Karla-Medium.ttf */,
+				2FC89CD729198A1B00AE7A8A /* Karla-MediumItalic.ttf */,
+				2FC89CCF29198A1A00AE7A8A /* Karla-Regular.ttf */,
+				2FC89CD929198A1B00AE7A8A /* Karla-SemiBold.ttf */,
+				2FC89CD629198A1A00AE7A8A /* Karla-SemiBoldItalic.ttf */,
 				2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */,
 				2FC89CA42915AD2C00AE7A8A /* That_Girl.entitlements */,
 				2FC89CA52915AD2C00AE7A8A /* Preview Content */,
@@ -233,8 +280,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC89CE829198A1B00AE7A8A /* Karla-ExtraLightItalic.ttf in Resources */,
+				2FC89CE229198A1B00AE7A8A /* Karla-ExtraBoldItalic.ttf in Resources */,
+				2FC89CE329198A1B00AE7A8A /* Karla-Medium.ttf in Resources */,
+				2FC89CDF29198A1B00AE7A8A /* Karla-LightItalic.ttf in Resources */,
 				2FC89CA72915AD2C00AE7A8A /* Preview Assets.xcassets in Resources */,
+				2FC89CE529198A1B00AE7A8A /* Karla-MediumItalic.ttf in Resources */,
+				2FC89CDE29198A1B00AE7A8A /* Karla-Light.ttf in Resources */,
+				2FC89CE729198A1B00AE7A8A /* Karla-SemiBold.ttf in Resources */,
+				2FC89CE629198A1B00AE7A8A /* Karla-ExtraBold.ttf in Resources */,
 				2FC89CA32915AD2C00AE7A8A /* Assets.xcassets in Resources */,
+				2FC89CDD29198A1B00AE7A8A /* Karla-Regular.ttf in Resources */,
+				2FC89CDB29198A1B00AE7A8A /* Karla-Italic.ttf in Resources */,
+				2FC89CE129198A1B00AE7A8A /* Karla-ExtraLight.ttf in Resources */,
+				2FC89CE429198A1B00AE7A8A /* Karla-SemiBoldItalic.ttf in Resources */,
+				2FC89CDC29198A1B00AE7A8A /* Karla-Bold.ttf in Resources */,
+				2FC89CE029198A1B00AE7A8A /* Karla-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FC89CA12915AD2B00AE7A8A /* ContentView.swift in Sources */,
+				2FC89CA12915AD2B00AE7A8A /* LaunchScreenView.swift in Sources */,
 				2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */,
+				2FC89CCC29181C0200AE7A8A /* DashboardScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +479,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"That Girl/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "That-Girl-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +516,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"That Girl/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "That-Girl-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
