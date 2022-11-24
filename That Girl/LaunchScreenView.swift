@@ -21,7 +21,7 @@ struct LaunchScreenView: View {
    
     var body: some View {
         if isActive {
-            DashboardScreenView()
+            TabViewScreen()
         } else {
             ZStack {
                 Text("That Girl")

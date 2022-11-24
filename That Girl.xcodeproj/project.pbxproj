@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FB550FD292B8303003DCC7A /* HealthScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB550FC292B8303003DCC7A /* HealthScreenView.swift */; };
 		2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */; };
 		2FC89CA12915AD2B00AE7A8A /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */; };
 		2FC89CA32915AD2C00AE7A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FB550FC292B8303003DCC7A /* HealthScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScreenView.swift; sourceTree = "<group>"; };
 		2FC89C9B2915AD2B00AE7A8A /* That Girl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "That Girl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlApp.swift; sourceTree = "<group>"; };
 		2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				2FC89CE929198B9E00AE7A8A /* That-Girl-Info.plist */,
 				2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */,
 				2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */,
+				2FB550FC292B8303003DCC7A /* HealthScreenView.swift */,
 				2FC89CCB29181C0200AE7A8A /* DashboardScreenView.swift */,
 				2FC89CCE29198A1A00AE7A8A /* Karla-Bold.ttf */,
 				2FC89CD229198A1A00AE7A8A /* Karla-BoldItalic.ttf */,
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB550FD292B8303003DCC7A /* HealthScreenView.swift in Sources */,
 				2FC89CA12915AD2B00AE7A8A /* LaunchScreenView.swift in Sources */,
 				2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */,
 				2FC89CCC29181C0200AE7A8A /* DashboardScreenView.swift in Sources */,
