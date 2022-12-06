@@ -7,20 +7,65 @@
 
 import SwiftUI
 
+var meditationTitles = ["Love", "Peace"]
+
 struct MentalHealthScreenView: View {
-    var body: some View {
-        NavigationView {
-            HStack {
-                Text("Meditations")
-                    .font(Font.custom("Karla-Medium", size: 29))
-                    .foregroundColor(.black)
-                    .font(.system(size: 25))
-                    .padding(.leading, 25)
+
+    struct cardView : View {
+        @State private var showPlayer = false
+
+        var img = ""
+        var body : some View {
+            VStack {
+                HStack {
+                    Image(img)
+                }
+                .frame(width: 211, height: 120)
+            
+                Text(meditationTitles[0]) // change this to get the data correctly - somehow
+                    .font(Font.custom("Karla-Medium", size: 14))
+                    .padding(.leading, 2)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                
-                
             }
-        }
+            .onTapGesture {
+                showPlayer = true;
+                }
+            .fullScreenCover(isPresented: $showPlayer) {
+                PlayerView()
+            }
+                    }
+    }
+
+    var body: some View {
+            NavigationView {
+                VStack {
+                    VStack {
+                        Text("Meditations")
+                            .font(Font.custom("Karla-Medium", size: 29))
+                            .foregroundColor(.black)
+                            .font(.system(size: 25))
+                            .padding(.leading, 25)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack {
+                                ForEach(0..<3){i in
+                                    cardView(img: "img\(i)").padding(.leading, 20)
+                                }
+                            }
+                        }
+                    }
+                    VStack {
+                        Text("Express Yourself")
+                            .font(Font.custom("Karla-Medium", size: 29))
+                            .foregroundColor(.black)
+                            .font(.system(size: 25))
+                            .padding(.leading, 25)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                        Image("express-yoself").frame(width: 354, height: 190)
+                    }
+                }
+                Spacer()
+            }
     }
 }
 

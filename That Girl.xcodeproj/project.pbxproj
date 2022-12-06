@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2FB550FD292B8303003DCC7A /* HealthScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB550FC292B8303003DCC7A /* HealthScreenView.swift */; };
+		2FB550FF2934BA36003DCC7A /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB550FE2934BA36003DCC7A /* MeditationView.swift */; };
+		2FB55103293F670E003DCC7A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB55102293F670E003DCC7A /* PlayerView.swift */; };
+		2FB55105293F6C23003DCC7A /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB55104293F6C23003DCC7A /* PlaybackControlButton.swift */; };
 		2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */; };
 		2FC89CA12915AD2B00AE7A8A /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */; };
 		2FC89CA32915AD2C00AE7A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 
 /* Begin PBXFileReference section */
 		2FB550FC292B8303003DCC7A /* HealthScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScreenView.swift; sourceTree = "<group>"; };
+		2FB550FE2934BA36003DCC7A /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		2FB55102293F670E003DCC7A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		2FB55104293F6C23003DCC7A /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
 		2FC89C9B2915AD2B00AE7A8A /* That Girl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "That Girl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FC89C9E2915AD2B00AE7A8A /* That_GirlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = That_GirlApp.swift; sourceTree = "<group>"; };
 		2FC89CA02915AD2B00AE7A8A /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
@@ -148,6 +154,9 @@
 				2FC89CD929198A1B00AE7A8A /* Karla-SemiBold.ttf */,
 				2FC89CD629198A1A00AE7A8A /* Karla-SemiBoldItalic.ttf */,
 				2FC89CA22915AD2C00AE7A8A /* Assets.xcassets */,
+				2FB550FE2934BA36003DCC7A /* MeditationView.swift */,
+				2FB55102293F670E003DCC7A /* PlayerView.swift */,
+				2FB55104293F6C23003DCC7A /* PlaybackControlButton.swift */,
 				2FC89CA42915AD2C00AE7A8A /* That_Girl.entitlements */,
 				2FC89CA52915AD2C00AE7A8A /* Preview Content */,
 			);
@@ -324,7 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FB550FD292B8303003DCC7A /* HealthScreenView.swift in Sources */,
+				2FB550FF2934BA36003DCC7A /* MeditationView.swift in Sources */,
 				2FC89CA12915AD2B00AE7A8A /* LaunchScreenView.swift in Sources */,
+				2FB55105293F6C23003DCC7A /* PlaybackControlButton.swift in Sources */,
+				2FB55103293F670E003DCC7A /* PlayerView.swift in Sources */,
 				2FC89C9F2915AD2B00AE7A8A /* That_GirlApp.swift in Sources */,
 				2FC89CCC29181C0200AE7A8A /* DashboardScreenView.swift in Sources */,
 			);

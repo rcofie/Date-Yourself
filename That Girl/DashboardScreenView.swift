@@ -36,7 +36,7 @@ struct TabViewScreen: View {
                     Image(systemName: "calendar")
                     Text("Organisation")
                 }
-            Text("Health")
+            MentalHealthScreenView()
                 .tabItem {
                     Image(systemName: "bolt.heart")
                     Text("Health")
